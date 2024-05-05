@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(37, 70, 103);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: whitesmoke;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  align-content: space-around;
+  color: whitesmoke;
+}
+
+main {
+  display: flex;
+  color: whitesmoke;
+}
+img {
+  width: 300px;
+  border: 30px;
+  border-radius: 200px;
+}
+
+button {
+  padding: 10px;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: white;
+  height: 50px;
+  width: 150px;
+  background-color: rgba(46, 99, 125, 0.986);
+  font: 1em sans-serif;
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.footercontainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: whitesmoke;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 1cm;
+  color: blue;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
+}

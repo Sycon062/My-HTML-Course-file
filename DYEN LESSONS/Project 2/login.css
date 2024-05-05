@@ -1,0 +1,56 @@
+body {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 80vh;
+}
+
+#input-element-container {
+  padding: 20px 20px 20px 20px;
+  border: 2px solid black;
+  height: 150px;
+}
+
+*#form-wrapper {
+  width: 40%;
+
+  padding: 12px;
+}
+
+#heading {
+  width: 100%;
+
+  text-align: center;
+}
+
+#sign-up-call {
+  color: blue;
+
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+button {
+  width: 220px;
+  padding: 1%;
+  color: blue;
+  background-color: aqua;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: green;
+  }
+}
