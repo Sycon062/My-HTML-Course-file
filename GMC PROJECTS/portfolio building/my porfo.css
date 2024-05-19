@@ -1,9 +1,4 @@
-body {
-  background-color: rgb(37, 70, 103);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
-}
-.head {
+margin: .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,11 +22,6 @@ body {
 main {
   display: flex;
   color: whitesmoke;
-}
-img {
-  width: 300px;
-  border: 30px;
-  border-radius: 200px;
 }
 
 button {

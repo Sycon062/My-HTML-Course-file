@@ -1,0 +1,35 @@
+.head {
+  background-color: rgb(2, 23, 50);
+}
+.logo {
+  color: white;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  color: white;
+  
+}
+
+body{
+  background-color: rgb(55, 55, 77);
+}
+
+.main{
+  color
+}
+
+.button{
+  padding: 5px;
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  border-width: 3px;
+  bac
+
+
+}
